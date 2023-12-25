@@ -8,7 +8,10 @@ environment:
 
 dependencies:
   charset_converter: ^2.0.0
-  esc_pos_utils: ^1.1.0
+  esc_pos_utils:
+    git:
+      url: https://github.com/zhaozhanh/esc_pos_utils.git
+      ref: master
   flutter:
     sdk: flutter
   # esc_pos_utils:
